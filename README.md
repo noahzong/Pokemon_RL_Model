@@ -27,4 +27,10 @@ This should create a private showdown server on localhost
 4. Clone this repo  
 5. Run reinforcement_bot.py  
 
-The file model.h5 is an already trained model. To start training of a new model delete the file. To evaluate the current model just run the reinforcement_bot.py file
+The file model.h5 is an already trained model with 10000 steps. The reward system is as follows:  
+Winning corresponds to a positive reward of 30  
+Making an opponent’s pokemon faint corresponds to a positive reward of 1  
+Making an opponent lose % hp corresponds to a positive reward of %.  
+Punishments are mirrored (ex. losing is -30).  
+  
+To start training of a new model delete the file model.h5. To evaluate the current model just run the reinforcement_bot.py file
