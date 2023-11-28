@@ -176,20 +176,20 @@ async def main():
     dqn.compile(Adam(learning_rate=0.00025), metrics=["mae"])
     # Training the model
     if continue_training:
-        dqn.fit(train_env, nb_steps=100) 
+        dqn.fit(train_env, nb_steps=10000) 
         train_env.close()
         model.save(model_filepath)
      
     # Evaluating the model
     print("Results against random player:")
-    dqn.test(eval_env, nb_episodes=10, verbose=False, visualize=False)
+    dqn.test(eval_env, nb_episodes=100, verbose=False, visualize=False)
     print(
         f"DQN Evaluation: {eval_env.n_won_battles} victories out of {eval_env.n_finished_battles} episodes"
     )
     second_opponent = MaxBasePowerPlayer(battle_format="gen8randombattle")
     eval_env.reset_env(restart=True, opponent=second_opponent)
     print("Results against max base power player:")
-    dqn.test(eval_env, nb_episodes=10, verbose=False, visualize=False)
+    dqn.test(eval_env, nb_episodes=100, verbose=False, visualize=False)
     print(
         f"DQN Evaluation: {eval_env.n_won_battles} victories out of {eval_env.n_finished_battles} episodes"
     )
