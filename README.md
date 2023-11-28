@@ -1,6 +1,6 @@
 # Pokemon_RL_Model
 
-This project is a Reinforcement Learning model designed for Pokémon battles. It uses the poke-env library to interact with the Pokémon environment and implements a Deep Q-Network (DQN) for decision-making. The model is trained to understand Pokémon type effectiveness and can be used to simulate battles and strategies in a Pokémon game environment.
+This project is a Reinforcement Learning model designed for Pokémon battles. It uses the poke-env library to interact with the Pokémon environment and implements a Deep Q-Network (DQN) for decision-making. The model is trained to understand Pokémon type effectiveness and can be used to simulate battles and strategies in a Pokémon game environment.  
 **Requirements**
 1. Have an updated version of Node.js installed
 2. Have Python 3.11 installed, or a similar version
