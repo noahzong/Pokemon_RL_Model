@@ -18,7 +18,7 @@ This project is a Reinforcement Learning model designed for Pokémon battles. It
 ```
 npm install
 ```
-This should install all dependencies
+This should install all dependencies  
 3. Run the command 
 ```
 node pokemon-showdown start --no-security
