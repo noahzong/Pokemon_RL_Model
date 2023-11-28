@@ -23,8 +23,8 @@ This should install all dependencies
 ```
 node pokemon-showdown start --no-security
 ```
-This should create a private showdown server on localhost
-4. Clone this repo
-5. Run reinforcement_bot.py
+This should create a private showdown server on localhost  
+4. Clone this repo  
+5. Run reinforcement_bot.py  
 
 The file model.h5 is an already trained model. To start training of a new model delete the file. To evaluate the current model just run the reinforcement_bot.py file
