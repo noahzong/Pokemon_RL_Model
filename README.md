@@ -31,7 +31,7 @@ This should create a private showdown server on localhost
 model_filepath = './models/MODEL_NAME.h5'
 ```
 To use an existing model, change the code above to the appropriate filepath  
-To start training of a new model, set the filepath to a name that doesn't exist already  
+To start training a new model, set the filepath to a name that doesn't exist already  
 
 **Models**  
 model1.h5:  
