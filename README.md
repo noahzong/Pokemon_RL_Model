@@ -9,7 +9,7 @@ This project is a Reinforcement Learning model designed for Pokémon battles. It
 5. pip install numpy
 6. pip install keras==2.12.0
 7. pip install poke-env==0.7.0
-8. pip install tensorflow==2.12.0
+8. pip install tensorflow==2.12.0 (Mac Users: pip install tensorflow-macos-2.12.0)
 9. pip install gym==0.26.2
 
 **Usage**
