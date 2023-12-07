@@ -34,7 +34,7 @@ To use an existing model, change the code above to the appropriate filepath
 To start training a new model, set the filepath to a name that doesn't exist already  
 
 **Models**  
-model1.h5:  
+model.h5:  
 A simple model trained with 10000 steps. The reward system is as follows:  
 Winning corresponds to a positive reward of 30  
 Making an opponent’s pokemon faint corresponds to a positive reward of 1  
