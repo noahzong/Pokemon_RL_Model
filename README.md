@@ -23,8 +23,8 @@ This should install all dependencies
 ```
 node pokemon-showdown start --no-security
 ```
-This should create a private showdown server on localhost  
-4. Clone this repo  
+This should create a private showdown server hosted locally. Once the server is running, you can begin running the actual project  
+4. Clone this repo (Pokemon_RL_Model)  
 5. Run reinforcement_bot.py  
 
 ```
