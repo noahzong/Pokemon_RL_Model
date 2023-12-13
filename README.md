@@ -13,7 +13,7 @@ This project is a Reinforcement Learning model designed for Pokémon battles. It
 9. pip install gym==0.26.2
 
 **Usage**
-1. Clone the pokemon showdown source code repo: https://github.com/smogon/pokemon-showdown-client/tree/master
+1. Clone the pokemon showdown source code repo: https://github.com/smogon/pokemon-showdown
 2. Run the command
 ```
 npm install
